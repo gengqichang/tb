@@ -1,0 +1,381 @@
+{
+    "sites": [
+        {
+            "key": "dbtj",
+            "name": "豆瓣┃推荐",
+            "type": 3,
+            "api": "csp_DouDou",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "nmys",
+            "name": "柠檬┃影视",
+            "type": 3,
+            "api": "csp_Nmvod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2,
+            "ext": "eaHR0cHM6Ly92aXAud3dnei5jbjo1MjAwL25tcGxheS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ==",
+            "jar": "http://m1839732.ca.caoni.ru/8/meow.php;md5;CC57F10CB80E1BC9DF179A6129BD07B3"
+        },
+        {
+            "key": "ttys",
+            "name": "天天┃影视",
+            "type": 3,
+            "api": "csp_TTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 1,
+            "ext": "baHR0cDovL3R0LnlzZHFqcy5jbg==",
+            "jar": "http://m1839732.ca.caoni.ru/8/meow.php;md5;CC57F10CB80E1BC9DF179A6129BD07B3"
+        },
+        {
+            "key": "rbys",
+            "name": "热播┃影视",
+            "type": 3,
+            "api": "csp_TTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 1,
+            "ext": "caHR0cDovL3YucmJvdHYuY24=",
+            "jar": "http://m1839732.ca.caoni.ru/8/meow.php;md5;CC57F10CB80E1BC9DF179A6129BD07B3"
+        },
+        {
+            "key": "zjys",
+            "name": "追剧┃影视",
+            "type": 3,
+            "api": "csp_TTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 1,
+            "ext": "daHR0cDovL3YubGt1eXMuY24=",
+            "jar": "http://m1839732.ca.caoni.ru/8/meow.php;md5;CC57F10CB80E1BC9DF179A6129BD07B3"
+        },
+        {
+            "key": "Wwys",
+            "name": "汪汪┃影视",
+            "type": 3,
+            "api": "csp_Wwys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 2,
+            "ext": "https://www.wwgz.cn/",
+            "jar": "http://m1839732.ca.caoni.ru/8/meow.php;md5;CC57F10CB80E1BC9DF179A6129BD07B3"
+        },
+        {
+            "key": "qyys",
+            "name": "奇优┃影视",
+            "type": 3,
+            "api": "csp_Qiyou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": 1,
+            "jar": "http://m1839732.ca.caoni.ru/7/meow.php;md5;D2F2AD718A007B5733ABB5F91AD23533"
+        },
+        {
+            "key": "nmys",
+            "name": "农民┃影视",
+            "type": 3,
+            "api": "csp_Nongm",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "http://m1839732.ca.caoni.ru/5/meow.php;md5;9A039F481AC34BE086451AEEFBE71A68"
+        },
+        {
+            "key": "lzzy",
+            "name": "量子┃资源",
+            "type": 1,
+            "api": "csp_lzzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "http://cj.lziapi.com/api.php/provide/vod/",
+            "playurl": "json:http://110.42.3.99:880/rmm.php/?url=",
+            "categories": [
+                "国产剧",
+                "国产动漫",
+                "泰国剧",
+                "台湾剧",
+                "香港剧",
+                "欧美剧",
+                "韩国剧",
+                "日本剧",
+                "动漫",
+                "体育",
+                "剧情片",
+                "动作片",
+                "爱情片",
+                "喜剧片"
+            ]
+        },
+        {
+            "key": "bfzy",
+            "name": "暴风┃资源",
+            "type": 1,
+            "api": "csp_bfzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+            "categories": [
+                "国产剧",
+                "国产动漫",
+                "大陆综艺",
+                "港台综艺",
+                "香港剧",
+                "台湾剧",
+                "日本剧",
+                "欧美剧",
+                "泰国剧",
+                "日本动漫",
+                "日本综艺",
+                "综艺频道",
+                "新马泰综艺",
+                "纪录片",
+                "科幻片",
+                "喜剧片",
+                "战争片"
+            ]
+        },
+        {
+            "key": "mss1",
+            "name": "大喵┃搜索",
+            "type": 3,
+            "api": "csp_AI",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "playerType": 2,
+            "ext": "faHR0cDovLzE3NS4xNzguODAuMjA5L21iL2FwaS5waHAvcHJvdmlkZS92b2QvfE1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMTkuMC4wLjAgU2FmYXJpLzUzNy4zM3xxaWFvamk=",
+            "jar": "http://m1839732.ca.caoni.ru/8/meow.php;md5;CC57F10CB80E1BC9DF179A6129BD07B3"
+        },
+        {
+            "key": "mss2",
+            "name": "二喵┃搜索",
+            "type": 3,
+            "api": "csp_AI",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "playerType": 2,
+            "ext": "haHR0cDovLzE3NS4xNzguODAuMjA5L21iL3N4eXMvYXBpLnBocC9wcm92aWRlL3ZvZC98b2todHRwLzQuOS4xfHFpYW9qaQ==",
+            "jar": "http://m1839732.ca.caoni.ru/8/meow.php;md5;CC57F10CB80E1BC9DF179A6129BD07B3"
+        }
+    ],
+    "parses": [
+        {
+            "name": "Webs聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "Json聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "MeowTV1",
+            "type": 0,
+            "url": "https://bd.jx.cn/?url="
+        },
+        {
+            "name": "MeowTV2",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
+        },
+        {
+            "name": "MeowTV3",
+            "type": 0,
+            "url": "https://player.mrgaocloud.com/player/?url="
+        }
+    ],
+    "lives": [
+        {
+            "name": "直播",
+            "type": 0,
+            "playerType": 1,
+            "url": "http://meowtv.top/zb",
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
+    ],
+    "spider": "http://m1839732.ca.caoni.ru/1/meow.php;md5;D1115D99527D75948D095085B1407ADD",
+    "wallpaper": "http://tool.teyonds.com/api",
+    "doh": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-quer",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "name": "kk",
+            "hosts": [
+                "kuaikan"
+            ],
+            "regex": [
+                "5",
+                "20.123",
+                "20.167",
+                "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-KEY:METHOD((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "yq",
+            "hosts": [
+                "yqk"
+            ],
+            "regex": [
+                "18.4",
+                "15.1666",
+                "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-OUT((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-IN"
+            ]
+        },
+        {
+            "name": "sn",
+            "hosts": [
+                "suonizy"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+",
+                "15.1666",
+                "15.2666",
+                "16.3333",
+                "15.266667"
+            ]
+        },
+        {
+            "name": "bf",
+            "hosts": [
+                "bfzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "xx",
+            "hosts": [
+                "aws.ulivetv.net"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "lz",
+            "hosts": [
+                "vip.lz",
+                "hd.lz",
+                "v.cdnlz",
+                "yzzy1.play"
+            ],
+            "regex": [
+                "18.5333",
+                "19.52",
+                "18.6666"
+            ]
+        },
+        {
+            "name": "ff",
+            "hosts": [
+                "vip.ffzy",
+                "hd.ffzy",
+                "ffzy"
+            ],
+            "regex": [
+                "25.0666",
+                "25.08",
+                "20.52",
+                "25.1",
+                "25.1999"
+            ]
+        },
+        {
+            "name": "hs",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "dy",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        },
+        {
+            "name": "nm",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
+            ]
+        },
+        {
+            "name": "cl",
+            "hosts": [
+                "magnet"
+            ],
+            "regex": [
+                "最新",
+                "直播",
+                "更新"
+            ]
+        }
+    ]
+}
