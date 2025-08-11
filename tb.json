@@ -1,20 +1,20 @@
 {
   "urls": [
     {
-      "name": "Gqc📚饭太硬",
+      "name": "饭太硬",
       "url": "http://www.饭太硬.com/tv/"
     },
     {
-      "name": "Gqc📚喵影视",
+      "name": "喵影视",
       "url": "https://raw.gitmirror.com/gengqichang/tb/refs/heads/main/miao.json"
     },
     {
-      "name": "Gqc📚讴歌",
+      "name": "讴歌",
       "url": "https://raw.gitmirror.com/gengqichang/tb/refs/heads/main/oge.json"
     },
     {
-      "name": "天威new",
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gengqichang/tb/refs/heads/main/tw.json"
+      "name": "天威",
+      "url": "https://raw.gitmirror.com/gengqichang/tb/refs/heads/main/tw.json"
     },
     {
       "name": "巧计",
@@ -34,19 +34,23 @@
     },
     {
       "name": "香雅晴",
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+      "url": "https://raw.gitmirror.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
     },
     {
       "name": "潇洒",
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json"
+      "url": "https://raw.gitmirror.com/PizazzGY/TVBox/main/api.json"
     },
     {
       "name": "王小二",
       "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top"
     },
     {
-      "name": "短剧大全",
+      "name": "短剧1",
       "url": "http://74.120.175.78/JK/XYQTVBox/dj.json"
+    },
+    {
+      "name": "短剧2",
+      "url": "https://xn--l77l-rp5imh.v.nxog.top/api2.php?id=13"
     }
   ]
 }
